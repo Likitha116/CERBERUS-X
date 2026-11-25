@@ -1,0 +1,17 @@
+{
+  "case_id": "EMP-038",
+  "scenario": "employee_verification",
+  "label": "multiple_conflicts",
+  "conflict_types": [
+    "address_mismatch",
+    "name_mismatch",
+    "department_mismatch"
+  ],
+  "expected_findings": [
+    "Profile name 'Vikram Das' differs from ID card name 'Vikram Kumar'.",
+    "Offer letter job title 'Finance Associate' differs from profile job title 'Data Analyst'.",
+    "Profile work location Kochi differs from ID card location Delhi."
+  ],
+  "expected_system_action": "request_more_evidence",
+  "synthetic": true
+}

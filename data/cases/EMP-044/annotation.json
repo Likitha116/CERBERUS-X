@@ -1,0 +1,17 @@
+{
+  "case_id": "EMP-044",
+  "scenario": "employee_verification",
+  "label": "multiple_conflicts",
+  "conflict_types": [
+    "joining_date_mismatch",
+    "department_mismatch",
+    "salary_mismatch"
+  ],
+  "expected_findings": [
+    "Profile salary INR 30,000, payslip salary INR 22,000, and payroll salary INR 23,000 are inconsistent.",
+    "Offer letter joining date 2022-07-01 conflicts with profile joining date 2023-02-15.",
+    "Offer letter job title 'Finance Associate' differs from profile job title 'Software Engineer'."
+  ],
+  "expected_system_action": "request_more_evidence",
+  "synthetic": true
+}

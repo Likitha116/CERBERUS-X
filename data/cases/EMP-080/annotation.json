@@ -1,0 +1,13 @@
+{
+  "case_id": "EMP-080",
+  "scenario": "employee_verification",
+  "label": "missing_evidence",
+  "conflict_types": [
+    "missing_id"
+  ],
+  "expected_findings": [
+    "Employee ID evidence is missing."
+  ],
+  "expected_system_action": "request_more_evidence",
+  "synthetic": true
+}

@@ -1,0 +1,17 @@
+{
+  "case_id": "EMP-046",
+  "scenario": "employee_verification",
+  "label": "multiple_conflicts",
+  "conflict_types": [
+    "joining_date_mismatch",
+    "name_mismatch",
+    "department_mismatch"
+  ],
+  "expected_findings": [
+    "Profile name 'Rahul Bose' differs from ID card name 'Rahul Patel'.",
+    "Offer letter joining date 2022-07-01 conflicts with profile joining date 2023-02-15.",
+    "Offer letter job title 'Finance Associate' differs from profile job title 'Accountant'."
+  ],
+  "expected_system_action": "request_more_evidence",
+  "synthetic": true
+}

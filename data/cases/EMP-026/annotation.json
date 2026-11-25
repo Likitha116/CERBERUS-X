@@ -1,0 +1,13 @@
+{
+  "case_id": "EMP-026",
+  "scenario": "employee_verification",
+  "label": "single_conflict",
+  "conflict_types": [
+    "name_mismatch"
+  ],
+  "expected_findings": [
+    "Profile name 'Rahul Bose' differs from ID card name 'Rahul Sharma'."
+  ],
+  "expected_system_action": "request_more_evidence",
+  "synthetic": true
+}

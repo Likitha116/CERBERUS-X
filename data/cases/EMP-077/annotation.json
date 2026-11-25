@@ -1,0 +1,13 @@
+{
+  "case_id": "EMP-077",
+  "scenario": "employee_verification",
+  "label": "missing_evidence",
+  "conflict_types": [
+    "missing_payslip"
+  ],
+  "expected_findings": [
+    "Payslip evidence is missing."
+  ],
+  "expected_system_action": "request_more_evidence",
+  "synthetic": true
+}

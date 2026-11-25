@@ -1,0 +1,15 @@
+{
+  "case_id": "EMP-041",
+  "scenario": "employee_verification",
+  "label": "multiple_conflicts",
+  "conflict_types": [
+    "joining_date_mismatch",
+    "name_mismatch"
+  ],
+  "expected_findings": [
+    "Profile name 'Nisha Menon' differs from ID card name 'Nisha Patel'.",
+    "Offer letter joining date 2022-07-01 conflicts with profile joining date 2023-02-15."
+  ],
+  "expected_system_action": "request_more_evidence",
+  "synthetic": true
+}

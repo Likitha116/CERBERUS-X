@@ -1,0 +1,17 @@
+{
+  "case_id": "EMP-062",
+  "scenario": "employee_verification",
+  "label": "multiple_conflicts",
+  "conflict_types": [
+    "joining_date_mismatch",
+    "address_mismatch",
+    "name_mismatch"
+  ],
+  "expected_findings": [
+    "Profile name 'Rohan Mehta' differs from ID card name 'Rohan Sharma'.",
+    "Offer letter joining date 2022-07-01 conflicts with profile joining date 2023-02-15.",
+    "Profile work location Mysuru differs from ID card location Delhi."
+  ],
+  "expected_system_action": "request_more_evidence",
+  "synthetic": true
+}

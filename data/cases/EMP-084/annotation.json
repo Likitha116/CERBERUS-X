@@ -1,0 +1,13 @@
+{
+  "case_id": "EMP-084",
+  "scenario": "employee_verification",
+  "label": "unreadable_evidence",
+  "conflict_types": [
+    "unreadable_id_scan"
+  ],
+  "expected_findings": [
+    "Employee ID scan is intentionally blurred and should be marked unreadable."
+  ],
+  "expected_system_action": "request_more_evidence",
+  "synthetic": true
+}

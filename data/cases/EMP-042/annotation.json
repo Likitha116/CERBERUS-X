@@ -1,0 +1,17 @@
+{
+  "case_id": "EMP-042",
+  "scenario": "employee_verification",
+  "label": "multiple_conflicts",
+  "conflict_types": [
+    "salary_mismatch",
+    "department_mismatch",
+    "address_mismatch"
+  ],
+  "expected_findings": [
+    "Profile salary INR 45,000, payslip salary INR 42,000, and payroll salary INR 38,000 are inconsistent.",
+    "Offer letter job title 'Finance Associate' differs from profile job title 'QA Engineer'.",
+    "Profile work location Mysuru differs from ID card location Jaipur."
+  ],
+  "expected_system_action": "request_more_evidence",
+  "synthetic": true
+}

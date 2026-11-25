@@ -1,0 +1,13 @@
+{
+  "case_id": "EMP-029",
+  "scenario": "employee_verification",
+  "label": "single_conflict",
+  "conflict_types": [
+    "address_mismatch"
+  ],
+  "expected_findings": [
+    "Profile work location Mysuru differs from ID card location Coimbatore."
+  ],
+  "expected_system_action": "request_more_evidence",
+  "synthetic": true
+}

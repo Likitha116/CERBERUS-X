@@ -1,0 +1,17 @@
+{
+  "case_id": "EMP-050",
+  "scenario": "employee_verification",
+  "label": "multiple_conflicts",
+  "conflict_types": [
+    "joining_date_mismatch",
+    "salary_mismatch",
+    "address_mismatch"
+  ],
+  "expected_findings": [
+    "Profile salary INR 50,000, payslip salary INR 45,000, and payroll salary INR 43,000 are inconsistent.",
+    "Offer letter joining date 2022-07-01 conflicts with profile joining date 2023-02-15.",
+    "Profile work location Pune differs from ID card location Jaipur."
+  ],
+  "expected_system_action": "request_more_evidence",
+  "synthetic": true
+}

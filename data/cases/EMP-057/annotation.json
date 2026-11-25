@@ -1,0 +1,15 @@
+{
+  "case_id": "EMP-057",
+  "scenario": "employee_verification",
+  "label": "multiple_conflicts",
+  "conflict_types": [
+    "salary_mismatch",
+    "name_mismatch"
+  ],
+  "expected_findings": [
+    "Profile name 'Kiran Naidu' differs from ID card name 'Kiran Rao'.",
+    "Profile salary INR 110,000, payslip salary INR 102,000, and payroll salary INR 103,000 are inconsistent."
+  ],
+  "expected_system_action": "request_more_evidence",
+  "synthetic": true
+}

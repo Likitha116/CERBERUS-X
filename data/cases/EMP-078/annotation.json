@@ -1,0 +1,13 @@
+{
+  "case_id": "EMP-078",
+  "scenario": "employee_verification",
+  "label": "missing_evidence",
+  "conflict_types": [
+    "missing_offer_letter"
+  ],
+  "expected_findings": [
+    "Offer letter evidence is missing."
+  ],
+  "expected_system_action": "request_more_evidence",
+  "synthetic": true
+}

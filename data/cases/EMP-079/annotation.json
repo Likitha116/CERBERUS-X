@@ -1,0 +1,13 @@
+{
+  "case_id": "EMP-079",
+  "scenario": "employee_verification",
+  "label": "missing_evidence",
+  "conflict_types": [
+    "missing_attendance"
+  ],
+  "expected_findings": [
+    "Attendance CSV evidence is missing."
+  ],
+  "expected_system_action": "request_more_evidence",
+  "synthetic": true
+}

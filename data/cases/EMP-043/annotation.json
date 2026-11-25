@@ -1,0 +1,15 @@
+{
+  "case_id": "EMP-043",
+  "scenario": "employee_verification",
+  "label": "multiple_conflicts",
+  "conflict_types": [
+    "joining_date_mismatch",
+    "address_mismatch"
+  ],
+  "expected_findings": [
+    "Offer letter joining date 2022-07-01 conflicts with profile joining date 2023-02-15.",
+    "Profile work location Mumbai differs from ID card location Hyderabad."
+  ],
+  "expected_system_action": "request_more_evidence",
+  "synthetic": true
+}

@@ -1,0 +1,13 @@
+{
+  "case_id": "EMP-033",
+  "scenario": "employee_verification",
+  "label": "single_conflict",
+  "conflict_types": [
+    "department_mismatch"
+  ],
+  "expected_findings": [
+    "Offer letter job title 'Finance Associate' differs from profile job title 'Project Coordinator'."
+  ],
+  "expected_system_action": "request_more_evidence",
+  "synthetic": true
+}

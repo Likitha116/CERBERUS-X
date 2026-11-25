@@ -1,0 +1,15 @@
+{
+  "case_id": "EMP-055",
+  "scenario": "employee_verification",
+  "label": "multiple_conflicts",
+  "conflict_types": [
+    "department_mismatch",
+    "address_mismatch"
+  ],
+  "expected_findings": [
+    "Offer letter job title 'Finance Associate' differs from profile job title 'QA Engineer'.",
+    "Profile work location Kochi differs from ID card location Mumbai."
+  ],
+  "expected_system_action": "request_more_evidence",
+  "synthetic": true
+}

@@ -1,0 +1,15 @@
+{
+  "case_id": "EMP-037",
+  "scenario": "employee_verification",
+  "label": "multiple_conflicts",
+  "conflict_types": [
+    "address_mismatch",
+    "salary_mismatch"
+  ],
+  "expected_findings": [
+    "Profile salary INR 40,000, payslip salary INR 32,000, and payroll salary INR 33,000 are inconsistent.",
+    "Profile work location Delhi differs from ID card location Mumbai."
+  ],
+  "expected_system_action": "request_more_evidence",
+  "synthetic": true
+}

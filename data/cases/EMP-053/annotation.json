@@ -1,0 +1,15 @@
+{
+  "case_id": "EMP-053",
+  "scenario": "employee_verification",
+  "label": "multiple_conflicts",
+  "conflict_types": [
+    "name_mismatch",
+    "address_mismatch"
+  ],
+  "expected_findings": [
+    "Profile name 'Pooja Shah' differs from ID card name 'Pooja Patel'.",
+    "Profile work location Jaipur differs from ID card location Kochi."
+  ],
+  "expected_system_action": "request_more_evidence",
+  "synthetic": true
+}

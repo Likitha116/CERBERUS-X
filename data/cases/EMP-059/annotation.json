@@ -1,0 +1,15 @@
+{
+  "case_id": "EMP-059",
+  "scenario": "employee_verification",
+  "label": "multiple_conflicts",
+  "conflict_types": [
+    "name_mismatch",
+    "department_mismatch"
+  ],
+  "expected_findings": [
+    "Profile name 'Sneha Kulkarni' differs from ID card name 'Sneha Sharma'.",
+    "Offer letter job title 'Finance Associate' differs from profile job title 'Accountant'."
+  ],
+  "expected_system_action": "request_more_evidence",
+  "synthetic": true
+}

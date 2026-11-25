@@ -1,0 +1,13 @@
+{
+  "case_id": "EMP-100",
+  "scenario": "employee_verification",
+  "label": "unsupported_claim",
+  "conflict_types": [
+    "unsupported_employment_claim"
+  ],
+  "expected_findings": [
+    "Declared salary is not supported by payslip or payroll records."
+  ],
+  "expected_system_action": "request_more_evidence",
+  "synthetic": true
+}

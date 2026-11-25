@@ -1,0 +1,15 @@
+{
+  "case_id": "EMP-045",
+  "scenario": "employee_verification",
+  "label": "multiple_conflicts",
+  "conflict_types": [
+    "name_mismatch",
+    "address_mismatch"
+  ],
+  "expected_findings": [
+    "Profile name 'Aisha Thomas' differs from ID card name 'Aisha Patel'.",
+    "Profile work location Kochi differs from ID card location Hyderabad."
+  ],
+  "expected_system_action": "request_more_evidence",
+  "synthetic": true
+}

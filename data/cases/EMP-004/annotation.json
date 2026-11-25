@@ -1,0 +1,11 @@
+{
+  "case_id": "EMP-004",
+  "scenario": "employee_verification",
+  "label": "consistent",
+  "conflict_types": [],
+  "expected_findings": [
+    "No designed conflict: available employee records are internally consistent for represented fields."
+  ],
+  "expected_system_action": "evidence_consistent_not_final_verification",
+  "synthetic": true
+}

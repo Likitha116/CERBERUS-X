@@ -1,0 +1,15 @@
+{
+  "case_id": "EMP-061",
+  "scenario": "employee_verification",
+  "label": "multiple_conflicts",
+  "conflict_types": [
+    "department_mismatch",
+    "salary_mismatch"
+  ],
+  "expected_findings": [
+    "Profile salary INR 100,000, payslip salary INR 95,000, and payroll salary INR 95,000 are inconsistent.",
+    "Offer letter job title 'Finance Associate' differs from profile job title 'HR Executive'."
+  ],
+  "expected_system_action": "request_more_evidence",
+  "synthetic": true
+}

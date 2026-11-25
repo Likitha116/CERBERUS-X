@@ -1,0 +1,13 @@
+{
+  "case_id": "EMP-028",
+  "scenario": "employee_verification",
+  "label": "single_conflict",
+  "conflict_types": [
+    "name_mismatch"
+  ],
+  "expected_findings": [
+    "Profile name 'Kiran Naidu' differs from ID card name 'Kiran Patel'."
+  ],
+  "expected_system_action": "request_more_evidence",
+  "synthetic": true
+}
